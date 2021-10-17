@@ -45,6 +45,10 @@ ctrl+C关闭
 
 iptables -t filter -F清空
 
+## 网络拓扑
+
+![topo](img/topo.png)
+
 ## 实验过程
 
 + ### TCP connect scan
