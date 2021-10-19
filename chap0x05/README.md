@@ -23,7 +23,7 @@
 
   - [x] UDP scan
 
-- [ ] 上述每种扫描技术的实现测试均需要测试端口状态为：`开放`、`关闭` 和 `过滤` 状态时的程序执行结果
+- [x] 上述每种扫描技术的实现测试均需要测试端口状态为：`开放`、`关闭` 和 `过滤` 状态时的程序执行结果
 
 - [x] 提供每一次扫描测试的抓包结果并分析与课本中的扫描方法原理是否相符？如果不同，试分析原因；
 
@@ -73,6 +73,8 @@ iptables -t filter -F清空
 
   + 端口过滤时
 
+    <img src="img/tcp_connect_filter.png" alt="tcp_connect_filter" style="zoom:50%;" />
+
   与课本结果相符
 
 + ### TCP stealth scan
@@ -97,6 +99,8 @@ iptables -t filter -F清空
 
   + 端口过滤时
 
+    <img src="img/tcp_stealth_filter.png" alt="tcp_stealth_filter" style="zoom:50%;" />
+    
     与课本结果相符
 
 + ### TCP Xmas Scan
@@ -121,6 +125,8 @@ iptables -t filter -F清空
 
   + 端口过滤时
 
+    <img src="img/tcp_xmas_filter.png" alt="tcp_xmas_filter" style="zoom:50%;" />
+
 + ### TCP fin scan
 
   ###### 扫描原理
@@ -143,6 +149,8 @@ iptables -t filter -F清空
 
   + 端口过滤时
 
+    <img src="img/tcp_fin_filter.png" alt="tcp_fin_filter" style="zoom:50%;" />
+    
     与课本结果相符
 
 + ### TCP null scan
@@ -167,6 +175,8 @@ iptables -t filter -F清空
 
   + 端口过滤时
 
+    <img src="img/tcp_null_filter.png" alt="tcp_null_filter" style="zoom:50%;" />
+    
     与课本结果相符
 
 + ### UDP scan
